@@ -201,12 +201,16 @@ li {
     background: transparent
 }
 
-.Card-projetos {
+.Card-projetos1 {
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
 
 }
+.span{
+    color: rgb(8, 201, 56);
+}
+
 
 .card-projetos2 {
     display: flex;
@@ -214,6 +218,20 @@ li {
     margin-top: 100px;
 
 }
+.card-projetos2 span{
+    color: red;
+}
+
+.card-projetos3 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+
+}
+.card-projetos3 span{
+    color: red;
+}
+
 
 footer {
     background: linear-gradient(48deg, rgba(241, 222, 8) 40%, rgb(14, 13, 13) 70%);
@@ -267,9 +285,7 @@ footer p {
     background-color: rgb(241, 8, 8);
 }
 
-h5 span{
-    color:rgb(241, 8, 8); ;
-}
+
 @keyframes moverImagem {
     from {
         transform: translate(-5%, -2%) rotate(-2deg);
