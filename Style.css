@@ -223,9 +223,9 @@ li {
     color: red;
 }
 
-#assets{
+.assets{
     border-radius: 50px;
-    height: 80px;
+    height: 10px;
     margin-bottom: 30px;
 }
 
@@ -238,6 +238,13 @@ li {
 .card-projetos3 span{
     color: red;
 }
+
+.assets{
+    border-radius: 50px;
+    height: 80px;
+    margin-bottom: 30px;
+}
+
 
 
 footer {
